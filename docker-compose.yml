@@ -11,6 +11,3 @@ services:
       - rancher-data:/var/lib/rancher
       - /root/fullchain.pem:/etc/rancher/ssl/cert.pem:ro
       - /root/privkey.pem:/etc/rancher/ssl/key.pem:ro
-
-volumes:
-  rancher-data:
